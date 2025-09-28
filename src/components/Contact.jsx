@@ -12,6 +12,7 @@ function Contact() {
             src={Img}
             alt="Travel Contact"
             className="rounded-lg shadow-lg w-full h-1/3 object-cover"
+            loading="lazy"
           />
         </div>
 

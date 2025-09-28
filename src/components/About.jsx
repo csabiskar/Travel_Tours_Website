@@ -45,6 +45,7 @@ function About() {
           <div className="w-full md:w-3/5">
             <img
               src={AboutImg}
+              loading="lazy"
               alt="About A Xplorer"
               className="w-full h-64 sm:h-80 md:h-96 lg:h-[28rem] object-cover shadow-lg"
             />

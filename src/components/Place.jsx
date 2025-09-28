@@ -50,6 +50,7 @@ function Place() {
               >
                 <img
                   src={item.image}
+                  loading="lazy"
                   alt={item.title}
                   className="w-full h-80 object-cover transition-transform duration-600 hover:scale-125 hover:brightness-75"
                  

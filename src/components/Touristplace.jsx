@@ -50,7 +50,7 @@ function Touristplace() {
               <img
                 src={item.img}
                 alt={item.title}
-                
+                loading="lazy"
                 className="w-full h-80 object-cover transition-transform duration-600 hover:scale-125 hover:brightness-75"
               />
               <p className="mt-2 text-xl font-bold"> {item.title}</p>

@@ -44,6 +44,7 @@ function AsianPlace() {
                             src={item.img}
                             alt={item.title}
                             className="w-full h-80 object-cover transition-transform duration-600 hover:scale-125 hover:brightness-75"
+                            loading="lazy"
                         />
                         <p className="mt-2 text-xl font-bold"> {item.title}</p>
                         <p className="flex items-center text-[#bebebe]">

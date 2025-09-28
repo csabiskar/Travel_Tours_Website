@@ -36,10 +36,12 @@ function Service() {
                         className="w-full h-auto  overflow-hidden shadow-lg cursor-pointer"
                         data-aos="zoom-in"
                 data-aos-delay="100"
+
                     >
                         <img
                             src={item.Img}
                             alt={item.title}
+                            loading="lazy"
                             className="w-full h-80 object-cover transition-transform duration-600 hover:scale-105 hover:brightness-75"
                         />
                         <p className="mt-2 text-xl font-bold"> {item.title}</p>
