@@ -15,7 +15,7 @@ function About() {
     >
       <div className="w-full" data-aos="fade-up">
         {/* Title */}
-        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold bricolage-grotesque">
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold bricolage-grotesque">
           A <span className="text-[#fa1515]">Xplorer</span>
         </h2>
 

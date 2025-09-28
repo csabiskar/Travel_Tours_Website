@@ -61,8 +61,7 @@ function Touristplace() {
             </div>
           ))}
         </div>
-
-        
+    
       </div>
     </div>
   );

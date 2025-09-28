@@ -36,15 +36,15 @@ function Place() {
     <>
       <div className="min-h-screen pt-40 md:pt-0 px-4 md:px-20 bg-black text-white" id="explore">
         <div className="items-center justify-center flex flex-col " data-aos="fade-up">
-          <h2 className="text-4xl bricolage-grotesque font-bold text-center p-0">Enjoy The Beauty Of The World</h2>
+          <h2 className="text-4xl bricolage-grotesque font-bold text-center ">Enjoy The Beauty Of The World</h2>
           <p className="text-lg md:text-3xl leading-8 font-bold text-center text-[#ffffff] mt-6">
             India
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
             {demo.map((item, index) => (
               <div
                 key={index}
-                className="w-full h-auto  overflow-hidden shadow-lg cursor-pointer"
+                className="w-72 h-96  overflow-hidden shadow-lg cursor-pointer"
                 data-aos="zoom-in"
                 data-aos-delay="100"
               >
