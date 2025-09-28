@@ -69,7 +69,7 @@ function HeroSection() {
             ].map((item, index) => (
               <div
                 key={index}
-                className="relative w-full h-44 sm:h-52 overflow-hidden group shadow-lg rounded-lg"
+                className="relative w-full h-44 sm:h-52 overflow-hidden group shadow-lg"
               >
                 <img
                   src={item.src}
