@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState ,useEffect} from 'react'
 import './App.css'
 import HeroSection from './components/HeroSection'
 import Navbar from './components/Navbar'
@@ -13,6 +13,13 @@ import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
+    useEffect(() => {
+    const meta = document.createElement("meta");
+    meta.name = "google-site-verification";
+    meta.content = "d61qxdgaNF_lIIlKxHmldujznisBWdqFP3QE7nh3LDE";
+    document.head.appendChild(meta);
+  }, []);
+
 
   return (
     <>
