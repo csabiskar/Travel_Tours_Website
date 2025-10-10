@@ -16,7 +16,7 @@ function App() {
     useEffect(() => {
     const meta = document.createElement("meta");
     meta.name = "google-site-verification";
-    meta.content = "d61qxdgaNF_lIIlKxHmldujznisBWdqFP3QE7nh3LDE";
+    meta.content = "XHCc80ewPb33YKr2q9XTgDt8dtyKNrDPrXtVOV1b-j8";
     document.head.appendChild(meta);
   }, []);
 
